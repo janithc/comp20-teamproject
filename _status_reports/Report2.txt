@@ -1,0 +1,16 @@
+Week of 4/6 - 4/13
+
+Accomplishments this Week:
+	- Added poster submission modal on separate page.
+	- Integrated site with Heroku and mLab.
+	- Began integrating site with AWS S3 for poster storage.
+
+Challenges Faced:
+	- Resizing posters relative to page width.
+
+Goals for Next Week:
+	- Setup serverside and clientside code for poster upload.
+	- Adjust scrolling speed.
+	- Have posters be resized relative to page width.
+	- Work on admin page.
+	- Integrate submission modal with main page.

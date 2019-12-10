@@ -1,0 +1,25 @@
+Week of 4/14 - 4/21
+
+Accomplishments this Week:
+	- Set up AWS S3 bucket for poster storage.
+	- Set up server-side and client-side code to generate signed URL to upload 
+	  images directly to AWS S3.
+	- Set up feature to add random text to AWS S3 file URLs to guarantee 
+	  uniqueness of each poster.
+	- Added submission form modal to main page.
+	- Finished submission form functionality to submit data to MongoDB 
+	  database and store image URLs.
+	- Submission form displays "thank you" message upon submission.
+
+Challenges Faced:
+	- Initially figuring out how to upload images to AWS S3.
+	- Getting HTTP POST to work with the form data for even submission.
+
+Goals for Next Week:
+	- Address further server-side needs before working on admin page.
+	- Finally begin working on admin page.
+	- Dynamically fill login page with data from MongoDB and AWS S3.
+
+# Comments by Ming
+* Excellent work.    Submission form is a huge win.
+* "Address further server-side needs before working on admin page." => yes, this is top priority.  Admin page would be nice to have given enough time.

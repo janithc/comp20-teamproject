@@ -1,0 +1,13 @@
+Things that are TODO:
+
+Client-side:
+-See "Both" below
+
+Server-side:
+-See "Both" below
+
+Both:
+-Remove event
+
+BONUS:
+-Admin portal

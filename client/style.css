@@ -1,0 +1,102 @@
+/* This is a style sheet */
+
+body {
+	background-image: url("images/whitebrick.jpg");
+	background-color: white;
+	background-size: cover;
+	color: black;
+}
+
+@font-face {
+	font-family: drippingMarker;
+    src: url("fonts/drippingMarker.ttf");
+}
+
+h1 {
+	text-align: center;
+	font-size: 90px;
+	font-family: drippingMarker;
+    line-height: 60px;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+h2 {
+	text-align: center;
+	font-size: 16px;
+    line-height: 15px;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+#page_title {
+	/*background-color: black;*/
+}
+
+#out_car {
+	width: auto;
+	height: 850px;
+	overflow: hidden;
+    padding: 10px;
+}
+
+#carousel {
+	width: auto;
+	height: 900px;
+	/*background-color: white;*/
+	overflow: auto;
+	white-space:nowrap;
+	padding-top: 20px;
+}
+
+#carousel .slidetop {
+	display: inline-block;
+	overflow: hidden;
+	padding-left: 10px; 
+	padding-right: 10px;
+	padding-bottom: 40px;
+}
+
+#carousel .slidebottom {
+	display: inline-block;
+	overflow: hidden;
+	padding-left: 10px; 
+	padding-right: 10px; 
+}
+
+#carousel .eventtitle {
+	font-size: 24px; 
+}
+
+p {
+	color: black; 
+}
+
+#carousel .info {
+	background-color:#b3ccff;
+	height: auto;
+	width: 400px; 
+	padding-left: 10px; 
+	padding-right: 10px; 
+	padding-top: 1px; 
+	padding-bottom: 1px;
+	border-style: solid;
+	border-color: white;
+	white-space: -moz-pre-wrap !important;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    white-space: pre-wrap;       /* css-3 */
+    word-wrap: normal;       /* Internet Explorer 5.5+ */
+    white-space: -webkit-pre-wrap; /* Newer versions of Chrome/Safari*/
+    white-space: normal; 
+	overflow: hidden; 
+	text-overflow: ellipsis;
+}
+
+.img_holder {
+	width: 400px;
+	height: auto;
+}
+
+.img_holder img {
+	width: 100%;
+	height: auto;
+}
